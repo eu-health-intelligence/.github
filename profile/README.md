@@ -33,8 +33,6 @@ Every application uses **real, sourced epidemiological data** from Eurostat, WHO
 | 09 | [ Cross-Border Patient Flow](https://github.com/YOUR-ORG/cross-border-patient-flow) | EU patient mobility | EU Directive 2011/24/EU | Slate policy |
 | 10 | [🫁 Long COVID Burden Dashboard](https://github.com/YOUR-ORG/long-covid-burden) | Post-COVID health burden | ONS + ECDC + WHO EURO | Deep purple |
 
-> Replace `YOUR-ORG` with your GitHub organisation name throughout.
-
 ## Quick Start
 
 Every application is fully self-contained. No database. No environment variables. No external API calls.
