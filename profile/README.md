@@ -269,7 +269,7 @@ All datasets are:
 - Referenced in individual application READMEs  
 - Methodologically aligned with official documentation  
 
-# ho This Is For
+# Who This Is For
 
 Designed to demonstrate applied health intelligence capability for:
 
