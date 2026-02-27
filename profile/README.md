@@ -1,6 +1,6 @@
 # EU Health Intelligence Suite
 
-> Ten production-ready web applications mapping the structural crises facing European health systems — built for WHO and EU health policy analysis roles.
+> Ten production-ready web applications mapping the structural crises facing European health systems — built for European public health and policy research contexts.
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
