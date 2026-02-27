@@ -31,7 +31,7 @@ Every application uses **real, sourced epidemiological data** from Eurostat, WHO
 | 07 | [ Nurse Ratio Crisis Map](https://github.com/eu-health-intelligence/nurse-ratio-crisis) | Nursing workforce & safety | Eurostat `hlth_rs_nurs` + EFN | Industrial red |
 | 08 | [ Health Inequality Atlas](https://github.com/eu-health-intelligence/health-inequality) | Socioeconomic disparities | EU-SILC + OECD | Warm sepia academic |
 | 09 | [ Cross-Border Patient Flow](https://github.com/eu-health-intelligence/cross-border-patient-flow) | EU patient mobility | EU Directive 2011/24/EU | Slate policy |
-| 10 | [🫁 Long COVID Burden Dashboard](https://github.com/eu-health-intelligence/long-covid-burden) | Post-COVID health burden | ONS + ECDC + WHO EURO | Deep purple |
+| 10 | [ Long COVID Burden Dashboard](https://github.com/eu-health-intelligence/long-covid-burden) | Post-COVID health burden | ONS + ECDC + WHO EURO | Deep purple |
 
 ## Quick Start
 
