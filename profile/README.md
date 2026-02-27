@@ -22,23 +22,23 @@ Every application uses **real, sourced epidemiological data** from Eurostat, WHO
 
 | # | Application | Domain | Primary Data | Aesthetic |
 |---|-------------|--------|-------------|-----------|
-| 01 | [ Workforce Crisis Monitor](https://github.com/YOUR-ORG/workforce-crisis-monitor) | Physician supply gaps | Eurostat `hlth_rs_physd` | Dark terminal |
-| 02 | [ Avoidable Mortality Atlas](https://github.com/YOUR-ORG/avoidable-mortality-atlas) | Preventable & amenable deaths | Eurostat `hlth_cd_asdr2` | White editorial |
-| 03 | [ AMR Surveillance Dashboard](https://github.com/YOUR-ORG/amr-surveillance-dashboard) | Antimicrobial resistance | ECDC EARS-Net 2022 | Biohazard green |
-| 04 | [ Austerity Impact Analyzer](https://github.com/YOUR-ORG/austerity-impact-analyzer) | Spending cuts & mortality | Eurostat `gov_10a_exp` | Data-journalism |
-| 05 | [ Mental Health Gap](https://github.com/YOUR-ORG/mental-health-gap) | MH infrastructure deficit | WHO Mental Health Atlas 2020 | Soft lavender |
-| 06 | [ Pandemic Preparedness Scorecard](https://github.com/YOUR-ORG/pandemic-preparedness-scorecard) | Health security capacity | GHS Index 2021 + WHO SPAR | Navy emergency ops |
-| 07 | [ Nurse Ratio Crisis Map](https://github.com/YOUR-ORG/nurse-ratio-crisis) | Nursing workforce & safety | Eurostat `hlth_rs_nurs` + EFN | Industrial red |
-| 08 | [ Health Inequality Atlas](https://github.com/YOUR-ORG/health-inequality) | Socioeconomic disparities | EU-SILC + OECD | Warm sepia academic |
-| 09 | [ Cross-Border Patient Flow](https://github.com/YOUR-ORG/cross-border-patient-flow) | EU patient mobility | EU Directive 2011/24/EU | Slate policy |
-| 10 | [🫁 Long COVID Burden Dashboard](https://github.com/YOUR-ORG/long-covid-burden) | Post-COVID health burden | ONS + ECDC + WHO EURO | Deep purple |
+| 01 | [ Workforce Crisis Monitor](https://github.com/eu-health-intelligence/workforce-crisis-monitor) | Physician supply gaps | Eurostat `hlth_rs_physd` | Dark terminal |
+| 02 | [ Avoidable Mortality Atlas](https://github.com/eu-health-intelligence/avoidable-mortality-atlas) | Preventable & amenable deaths | Eurostat `hlth_cd_asdr2` | White editorial |
+| 03 | [ AMR Surveillance Dashboard](https://github.com/eu-health-intelligence/amr-surveillance-dashboard) | Antimicrobial resistance | ECDC EARS-Net 2022 | Biohazard green |
+| 04 | [ Austerity Impact Analyzer](https://github.com/eu-health-intelligence/austerity-impact-analyzer) | Spending cuts & mortality | Eurostat `gov_10a_exp` | Data-journalism |
+| 05 | [ Mental Health Gap](https://github.com/eu-health-intelligence/mental-health-gap) | MH infrastructure deficit | WHO Mental Health Atlas 2020 | Soft lavender |
+| 06 | [ Pandemic Preparedness Scorecard](https://github.com/eu-health-intelligence/pandemic-preparedness-scorecard) | Health security capacity | GHS Index 2021 + WHO SPAR | Navy emergency ops |
+| 07 | [ Nurse Ratio Crisis Map](https://github.com/eu-health-intelligence/nurse-ratio-crisis) | Nursing workforce & safety | Eurostat `hlth_rs_nurs` + EFN | Industrial red |
+| 08 | [ Health Inequality Atlas](https://github.com/eu-health-intelligence/health-inequality) | Socioeconomic disparities | EU-SILC + OECD | Warm sepia academic |
+| 09 | [ Cross-Border Patient Flow](https://github.com/eu-health-intelligence/cross-border-patient-flow) | EU patient mobility | EU Directive 2011/24/EU | Slate policy |
+| 10 | [🫁 Long COVID Burden Dashboard](https://github.com/eu-health-intelligence/long-covid-burden) | Post-COVID health burden | ONS + ECDC + WHO EURO | Deep purple |
 
 ## Quick Start
 
 Every application is fully self-contained. No database. No environment variables. No external API calls.
 
 ```bash
-git clone https://github.com/YOUR-ORG/[app-name]
+git clone https://github.com/eu-health-intelligence/[app-name]
 cd [app-name]
 npm install
 npm run dev
@@ -48,7 +48,12 @@ Open [http://localhost:3000](http://localhost:3000) — works offline immediatel
 
 ## Application Summaries
 
-### 01 · Workforce Crisis Monitor
+Click any application to expand its full summary, features, and data sources.
+
+<details>
+<summary><strong>01 ·  Workforce Crisis Monitor</strong> — Physician supply gaps · Eurostat hlth_rs_physd · Dark terminal</summary>
+
+<br>
 
 **The question:** Which European countries face physician shortages right now — and is the trajectory getting worse?
 
@@ -66,9 +71,14 @@ The WHO minimum for universal health coverage is **250 physicians per 100,000 po
 **Data:** `Eurostat hlth_rs_physd` · `OECD Health Statistics 2023` · `WHO EURO HRH Observatory`
 **Reference year:** 2022
 
-→ [workforce-crisis-monitor](https://github.com/YOUR-ORG/workforce-crisis-monitor)
+→ [workforce-crisis-monitor](https://github.com/eu-health-intelligence/workforce-crisis-monitor)
 
-### 02 · Avoidable Mortality Atlas
+</details>
+
+<details>
+<summary><strong>02 ·  Avoidable Mortality Atlas</strong> — Preventable & amenable deaths · Eurostat hlth_cd_asdr2 · White editorial</summary>
+
+<br>
 
 **The question:** Where are health systems failing to prevent deaths that should not be happening?
 
@@ -86,9 +96,14 @@ Avoidable mortality is the headline indicator in EU State of Health country prof
 **Data:** `Eurostat hlth_cd_asdr2` · Joint Eurostat/OECD avoidable mortality cause list (2019)
 **Reference year:** 2020–2022
 
-→ [avoidable-mortality-atlas](https://github.com/YOUR-ORG/avoidable-mortality-atlas)
+→ [avoidable-mortality-atlas](https://github.com/eu-health-intelligence/avoidable-mortality-atlas)
 
-### 03 · AMR Surveillance Dashboard
+</details>
+
+<details>
+<summary><strong>03 ·  AMR Surveillance Dashboard</strong> — Antimicrobial resistance · ECDC EARS-Net 2022 · Biohazard green</summary>
+
+<br>
 
 **The question:** Which pathogens are winning the resistance arms race — in which countries, and is the crisis accelerating?
 
@@ -106,9 +121,14 @@ Antimicrobial resistance is projected to cause more deaths than cancer by 2050. 
 **Data:** `ECDC EARS-Net 2022` · `ECDC ESAC-Net`
 **Reference year:** 2022
 
-→ [amr-surveillance-dashboard](https://github.com/YOUR-ORG/amr-surveillance-dashboard)
+→ [amr-surveillance-dashboard](https://github.com/eu-health-intelligence/amr-surveillance-dashboard)
 
-### 04 · Healthcare Austerity Impact Analyzer
+</details>
+
+<details>
+<summary><strong>04 · Healthcare Austerity Impact Analyzer</strong> — Spending cuts & mortality · Eurostat gov_10a_exp · Data-journalism</summary>
+
+<br>
 
 **The question:** What did post-2008 health spending cuts cost in lives — measured through the documented three-year mortality lag?
 
@@ -126,9 +146,14 @@ The 2008–2014 fiscal consolidation produced the largest natural experiment in 
 **Data:** `Eurostat gov_10a_exp (GF07)` · `Eurostat hlth_cd_asdr` · `IMF Fiscal Monitor`
 **Reference year:** 2005–2022
 
-→ [austerity-impact-analyzer](https://github.com/YOUR-ORG/austerity-impact-analyzer)
+→ [austerity-impact-analyzer](https://github.com/eu-health-intelligence/austerity-impact-analyzer)
 
-### 05 · Mental Health Gap
+</details>
+
+<details>
+<summary><strong>05 · Mental Health Gap</strong> — MH infrastructure deficit · WHO Mental Health Atlas 2020 · Soft lavender</summary>
+
+<br>
 
 **The question:** How large is the structural deficit in mental health workforce — and what does unmet need look like across Europe?
 
@@ -146,9 +171,14 @@ Mental health accounts for approximately **20% of disability-adjusted life years
 **Data:** `WHO Mental Health Atlas 2020` · `Eurostat hlth_rs_bds` · `EU-SILC hlth_silc_08` · `OECD Health Statistics 2023`
 **Reference year:** 2020–2022
 
-→ [mental-health-gap](https://github.com/YOUR-ORG/mental-health-gap)
+→ [mental-health-gap](https://github.com/eu-health-intelligence/mental-health-gap)
 
-### 06 · Pandemic Preparedness Scorecard
+</details>
+
+<details>
+<summary><strong>06 ·  Pandemic Preparedness Scorecard</strong> — Health security capacity · GHS Index 2021 + WHO SPAR · Navy emergency ops</summary>
+
+<br>
 
 **The question:** How prepared were European countries — and did preparedness scores actually predict COVID-19 performance?
 
@@ -166,9 +196,14 @@ This app does two things existing preparedness tools do not do together: scores 
 **Data:** `GHS Index 2021` · `WHO SPAR 2022` · `WHO excess mortality estimates 2021–2022`
 **Reference year:** 2021–2022
 
-→ [pandemic-preparedness-scorecard](https://github.com/YOUR-ORG/pandemic-preparedness-scorecard)
+→ [pandemic-preparedness-scorecard](https://github.com/eu-health-intelligence/pandemic-preparedness-scorecard)
 
-### 07 · Nurse-to-Patient Ratio Crisis Map
+</details>
+
+<details>
+<summary><strong>07 ·  Nurse Ratio Crisis Map</strong> — Nursing workforce & safety · Eurostat hlth_rs_nurs + EFN · Industrial red</summary>
+
+<br>
 
 **The question:** Which countries have fallen below the ICN safe-staffing minimum — and what are the patient safety consequences?
 
@@ -186,9 +221,14 @@ The International Council of Nurses minimum is **1 nurse per occupied acute bed*
 **Data:** `Eurostat hlth_rs_nurs` · `OECD Health Statistics 2023` · `EFN Benchmarking Report 2023` · `ICN Safe Staffing standards`
 **Reference year:** 2022–2023
 
-→ [nurse-ratio-crisis](https://github.com/YOUR-ORG/nurse-ratio-crisis)
+→ [nurse-ratio-crisis](https://github.com/eu-health-intelligence/nurse-ratio-crisis)
 
-### 08 · Health Inequality Atlas
+</details>
+
+<details>
+<summary><strong>08 · Health Inequality Atlas</strong> — Socioeconomic disparities · EU-SILC + OECD · Warm sepia academic</summary>
+
+<br>
 
 **The question:** How large is the gap between what European health systems promise and what they deliver to their poorest citizens?
 
@@ -206,9 +246,14 @@ Universal coverage does not mean equitable outcomes. France has universal covera
 **Data:** `EU-SILC hlth_silc_08` · `OECD Health at a Glance 2023` · `Eurostat hlth_cd_asdr2`
 **Reference year:** 2021–2022
 
-→ [health-inequality](https://github.com/YOUR-ORG/health-inequality)
+→ [health-inequality](https://github.com/eu-health-intelligence/health-inequality)
 
-### 09 · Cross-Border Patient Flow Tracker
+</details>
+
+<details>
+<summary><strong>09 · Cross-Border Patient Flow Tracker</strong> — EU patient mobility · EU Directive 2011/24/EU · Slate policy</summary>
+
+<br>
 
 **The question:** Where do EU patients go when their home system fails them — and what does the flow pattern reveal about which systems are failing?
 
@@ -226,9 +271,14 @@ The EU Cross-Border Healthcare Directive (2011/24/EU) is simultaneously a patien
 **Data:** `EU Directive 2011/24/EU Annual Reports` · `EHIC Claims Data`
 **Reference year:** 2022
 
-→ [cross-border-patient-flow](https://github.com/YOUR-ORG/cross-border-patient-flow)
+→ [cross-border-patient-flow](https://github.com/eu-health-intelligence/cross-border-patient-flow)
 
-### 10 · Long COVID Burden Dashboard
+</details>
+
+<details>
+<summary><strong>10 · Long COVID Burden Dashboard</strong> — Post-COVID health burden · ONS + ECDC + WHO EURO · Deep purple</summary>
+
+<br>
 
 **The question:** What is the actual scale of the Long COVID burden — and how adequately are health systems responding?
 
@@ -246,7 +296,9 @@ Long COVID is the largest new chronic disease burden created in Europe since the
 **Data:** `ONS COVID-19 Infection Survey` · `ECDC Long COVID Report 2023` · `WHO EURO Post-COVID Condition Guidelines`
 **Reference year:** 2022–2023
 
-→ [long-covid-burden](https://github.com/YOUR-ORG/long-covid-burden)
+→ [long-covid-burden](https://github.com/eu-health-intelligence/long-covid-burden)
+
+</details>
 
 ## Architecture
 
@@ -324,6 +376,14 @@ Built to demonstrate applied health intelligence capability for roles at:
 
 The combination of real epidemiological data, methodologically defensible scoring, production-quality interactive applications, and audience-specific visual design across all ten tools represents the full analytical pipeline — from raw surveillance data to decision-ready intelligence — that health intelligence roles require.
 
+## Author
+
+**Ofile Mfetane** — Health systems data analyst and developer based in Botswana, building applied analytics tools for European public health and policy research contexts.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ofile%20Mfetane-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ofile-mfetane)
+[![Medium](https://img.shields.io/badge/Medium-%40ofilemfetane-000000?style=flat-square&logo=medium)](https://medium.com/@ofilemfetane)
+[![GitHub](https://img.shields.io/badge/GitHub-eu--health--intelligence-181717?style=flat-square&logo=github)](https://github.com/eu-health-intelligence)
+
 ## Licence
 
 MIT — use freely. Cite original data sources when reproducing outputs.
@@ -332,3 +392,4 @@ Underlying data is from public sources (Eurostat, WHO, ECDC, OECD) and subject t
 
 *Next.js · TypeScript · Recharts · Tailwind CSS*
 *Eurostat · WHO EURO · ECDC · OECD · EU-SILC · EFN · ONS · IMF*
+*Built by [Ofile Mfetane](https://www.linkedin.com/in/ofile-mfetane) · [medium.com/@ofilemfetane](https://medium.com/@ofilemfetane)*
